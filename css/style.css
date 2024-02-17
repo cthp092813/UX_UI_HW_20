@@ -28,7 +28,7 @@ h4{
 
 .navbar{
     border-bottom: 1px solid black;
-    padding: 5px 0px;
+    padding: 0px;
     background-color: white;
 }
 
@@ -175,4 +175,137 @@ li{
 
 .map h3{
     text-align: center;
+}
+
+/*Wireframing/Prototyping*/
+.site-map{
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.site-map img{
+    width: 70%;
+}
+
+.style-tile{
+    padding: 40px 200px;
+}
+
+.wireframe{
+    padding: 40px 200px;
+}
+
+.insights{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.usability{
+    padding: 40px 190px;
+}
+
+/*Responsive Prototypes*/
+.mockups{
+    padding: 40px 200px;
+}
+
+.row{
+    margin-right: 0;
+}
+
+.card{
+    border: none;
+    align-items: center;
+}
+
+.desktop img{
+    width: 100%
+}
+.mobile img{
+    width: 29.3%;
+}
+
+.btn{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    background-color: #575924;
+    color: #F2F2F2;
+}
+
+.btn:hover{
+    background-color: #575924;
+    opacity: 0.8;
+}
+
+.end{
+    padding: 40px 200px;
+}
+
+/*Footer*/
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+}
+
+footer{
+    border-top: 1px solid black;
+    padding: 20px 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+.footernav{
+    font-family: 'DM sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    width: 212px;
+    justify-items: center;
+    align-items: center;
+    gap: 10%;
+    flex-shrink: 0;   
+}
+
+.footernav li{
+    list-style-type: none;
+}
+
+.footernav a{
+    color: black;
+    text-decoration: none;
+}
+
+.footernav a:hover{
+    text-decoration: underline;
+}
+
+.logo2 a{
+   color: black;
+   text-decoration: none;
+}
+
+hr{
+    width: 95%;
+    align-content: center;
+}
+
+.inline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70%;
+}
+
+#copyright{
+    font-size: 14px;
 }
