@@ -3,16 +3,32 @@ p{
     font-weight: 400;
 }
 
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    color: #403527;
+}
+
+.title{
+    background: #BFAE99;
+    padding: 10px 200px;
+}
+
 h3{
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
+}
+
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
 }
 
 /*Navigation*/
 
 .navbar{
     border-bottom: 1px solid black;
-    padding: 5px 150px;
+    padding: 5px 0px;
     background-color: white;
 }
 
@@ -44,6 +60,7 @@ h3{
     height: 398px;
     background-size: cover;
     background-position-y: 25%;
+    background-position-x: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -74,12 +91,88 @@ em{
     font-style: normal;
 }
 
-.overview-title{
-    background: #BFAE99;
-    padding: 10px 200px;
+.container-fluid{
+    padding: 40px 200px;
 }
 
-.overview-title h2{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
+#problem{
+    padding-bottom: 127%;
+}
+
+li{
+    font-family:'Montserrat', sans-serif;
+}
+
+/*Research*/
+.user-interviews{
+    padding: 40px 200px;
+}
+
+.feedback1{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.interview-box{
+    width: 347px;
+    height: 230px;
+    background-color: #BFA07A;
+    padding: 20px 20px;
+    border: 1px solid black;
+}
+
+.stakeholder{
+    padding: 20px 200px;
+}
+
+.stakeholder h3{
+    padding-top: 50px;
+}
+
+.user-persona{
+    padding: 20px 200px;
+}
+
+.persona h3{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+/*Ideation*/
+.comp-analysis{
+    padding: 40px 200px;
+}
+
+.matrix{
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.user-flow{
+    padding: 60px 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.map{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.map h3{
+    text-align: center;
 }
